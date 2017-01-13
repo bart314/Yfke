@@ -1,0 +1,206 @@
+object Form1: TForm1
+  Left = 287
+  Height = 420
+  Top = 276
+  Width = 601
+  BorderStyle = bsSizeToolWin
+  Caption = 'DARTEN(gemaakt door Yfke Smit)'
+  ClientHeight = 420
+  ClientWidth = 601
+  Color = 3503128
+  LCLVersion = '1.6.2.0'
+  object Edit1: TEdit
+    Left = 144
+    Height = 22
+    Top = 88
+    Width = 98
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 144
+    Height = 22
+    Top = 128
+    Width = 98
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 144
+    Height = 22
+    Top = 168
+    Width = 98
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 400
+    Height = 22
+    Top = 88
+    Width = 98
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 400
+    Height = 22
+    Top = 128
+    Width = 98
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 400
+    Height = 22
+    Top = 168
+    Width = 98
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 168
+    Height = 16
+    Top = 32
+    Width = 51
+    Caption = 'Speler 1'
+    Color = clWhite
+    ParentColor = False
+    Transparent = False
+  end
+  object Label2: TLabel
+    Left = 424
+    Height = 16
+    Top = 32
+    Width = 51
+    Caption = 'Speler 2'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 56
+    Height = 16
+    Top = 88
+    Width = 45
+    Caption = 'Worp 1'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 56
+    Height = 16
+    Top = 128
+    Width = 45
+    Caption = 'Worp 2'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 56
+    Height = 16
+    Top = 168
+    Width = 45
+    Caption = 'Worp 3'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 312
+    Height = 16
+    Top = 88
+    Width = 45
+    Caption = 'Worp 1'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 312
+    Height = 16
+    Top = 128
+    Width = 45
+    Caption = 'Worp 2'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 312
+    Height = 16
+    Top = 168
+    Width = 45
+    Caption = 'Worp 3'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 56
+    Height = 16
+    Top = 272
+    Width = 42
+    Caption = 'Score: '
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 312
+    Height = 16
+    Top = 272
+    Width = 42
+    Caption = 'Score: '
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 26
+    Top = 216
+    Width = 96
+    Caption = 'BEREKEN'
+    OnClick = Button1Click
+    TabOrder = 6
+  end
+  object Button2: TButton
+    Left = 400
+    Height = 26
+    Top = 216
+    Width = 98
+    Caption = 'BEREKEN'
+    OnClick = Button2Click
+    TabOrder = 7
+  end
+  object Button3: TButton
+    Left = 200
+    Height = 50
+    Top = 352
+    Width = 196
+    Caption = 'NIEUW SPEL'
+    OnClick = Button3Click
+    TabOrder = 8
+  end
+  object Edit7: TEdit
+    Left = 144
+    Height = 22
+    Top = 266
+    Width = 64
+    ReadOnly = True
+    TabOrder = 9
+    Text = '501'
+  end
+  object Edit8: TEdit
+    Left = 400
+    Height = 22
+    Top = 266
+    Width = 72
+    ReadOnly = True
+    TabOrder = 10
+    Text = '501'
+  end
+  object Label11: TLabel
+    Left = 224
+    Height = 16
+    Top = 272
+    Width = 4
+    Caption = ' '
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 496
+    Height = 1
+    Top = 272
+    Width = 1
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 264
+    Height = 1
+    Top = 312
+    Width = 1
+    ParentColor = False
+  end
+end
